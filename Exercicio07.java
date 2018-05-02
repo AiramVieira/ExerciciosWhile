@@ -36,7 +36,7 @@ import jdk.nashorn.internal.scripts.JO;
             int maiorQtdCartoesVermelhos = Integer.MIN_VALUE;
             int menorQtdCartoesVermelhos = Integer.MAX_VALUE;
 
-            int qtdJogador = 4;
+            int qtdJogador = 2;
 
                 while(qtdJogador > 0){
                     sexo = JOptionPane.showInputDialog(null, "Digite o sexo do(a) jogador(a)").trim().toLowerCase();
@@ -85,8 +85,8 @@ import jdk.nashorn.internal.scripts.JO;
 
                 qtdJogador = qtdJogador - 1;
             }
-            JOptionPane.showMessageDialog(null, "O maior nome é " +maiorNome+
-                                                "\nO menor nome é: "+menorNome+
+            JOptionPane.showMessageDialog(null, "O maior nome tem " +maiorNome+ " caractéres"+
+                                                "\nO menor nome tem: "+menorNome+ " caractéres"+
                                                 "\nO maior peso é: "+maiorPeso+
                                                 "\nO menor peso é: "+menorPeso+
                                                 "\nA maior altura é: "+maiorAltura+
